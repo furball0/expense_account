@@ -1,0 +1,29 @@
+{% include "header.html" %}
+
+{% block body %}
+
+<div class="container">
+    <div class="row-sm" style="margin-top: 40px">
+        <div class="col-sm">
+            {%  for ctg, msg in get_flashed_messages(True) %}
+            <div class="{{ ctg }}">{{ msg }}</div>
+            {%  endfor %}
+            <form method="POST" class="container">
+                <div class="form-group">
+                    <label for="email">Login : </label>
+                    <input type="text" name="uname" class="form-control" id="uname">
+                </div>
+                <div class="form-group">
+                    <label for="email">Password : </label>
+                    <input type="password" name="passw" class="form-control" id="passw">
+                </div>
+                <button type="submit" class="btn form-control btn-default" style="margin: 0%;">Log in</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+{% endblock body %}
+
+{% include "footer.html" %}

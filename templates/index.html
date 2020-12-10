@@ -1,0 +1,35 @@
+{% include "header.html" %}
+
+{% block body %}
+
+<div class="container-fluid" , style="padding: 0px">
+    {%  for ctg, msg in get_flashed_messages(True) %}
+    <div class="{{ ctg }} alert-dan">{{ msg }}</div>
+    {%  endfor %}
+    <h1>Description</h1>
+
+    <br><br>
+    <h2>Scan your receipt</h2>
+
+    <div class="text-center">
+        <form action="scanner" method=post enctype=multipart/form-data>
+            <div class="input-group">
+                <div class="custom-file">
+                    <input type="file" name="file" class="custom-file-input" id="inputGroupFile01"
+                        aria-describedby="inputGroupFileAddon01" accept="image/*">
+                    <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
+                </div>
+            </div>
+            <br>
+            <button type="submit" class="btn btn-raised btn-primary">Scan Image</button>
+        </form>
+    </div>
+</div>
+
+{% if scanned %}
+<hr>
+<h1>Scanned results</h1>
+{% endif %}
+{% endblock body %}
+
+{% include "footer.html" %}

@@ -1,0 +1,31 @@
+{
+    "name": "Expense accounting",
+    "short_name": "Expense accounting",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#ffffff",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "/static/images/img64.png",
+            "type": "image/png",
+            "sizes": "64x64"
+        },
+        {
+            "src": "/static/images/img96.png",
+            "type": "image/png",
+            "sizes": "96x96"
+        },
+        {
+            "src": "/static/images/img192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "/static/images/img512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ]
+}

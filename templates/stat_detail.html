@@ -1,0 +1,27 @@
+{% include "header.html" %}
+{% block body %}
+<div class="container">
+    <h1 class="text-center">Detailed information</h1>
+    <hr>
+    {% for main in receipt_main %}
+    <div class="alert alert-info">
+
+        <h2>{{ main.market_names }}</h2>
+        {% for el2  in receipt_info%}
+        <div>Product: {{ el2.products }}</div>
+        <div style="margin-right:40px; display: inline-block">Price: {{ el2.price }}</div>
+        <div style="margin-right:40px; display: inline-block">Quantity {{ el2.quantity }}</div>
+        <div style="margin-right:40px; display: inline-block">Cost {{ el2.costs }}</div>
+        <hr>
+        {% endfor %}
+
+        <p><b>Total: {{ main.results }}</b></p>
+        <p><b>Date: {{ main.dates }}</b></p>
+        <a href="/stats" class="btn btn-warning">Return back</a>
+    </div>
+    {% endfor %}
+
+</div>
+{% endblock body %}
+
+{% include "footer.html" %}

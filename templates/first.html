@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>{{title}}</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+
+    <!-- Bootstrap core CSS -->
+    <link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet">
+
+    <!-- Material Design Bootstrap -->
+    <link href="{{ url_for('static', filename='css/mdb.min.css') }}" rel="stylesheet">
+
+    <!-- Your custom styles (optional) -->
+    <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
+    <link rel="manifest" href="/static/manifest.json">
+    <!-- ios support -->
+    <link rel="apple-touch-icon" href="/static/images/img96.png">
+    <meta name="apple-mobile-web-app-status-bar" content="#FFFFFF">
+</head>
+
+<body>
+
+    <div class="navbar navbar-dark bg-dark shadow-sm">
+        <div class="container d-flex justify-content-between">
+            <a href="/" class="navbar-brand d-flex align-items-center">
+                <strong>Expense accounting</strong>
+            </a>
+            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarHeader"
+                aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </div>
+    <div class="bg-dark collapse" id="navbarHeader" style="">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-sm">
+                    <div class="text-center">
+                        <button class="btn btn-success btn-sm" type="button"><a href="/login"
+                                class="text-light">Log in</a></button>
+                        <button class="btn btn-success btn-sm" type="button"><a href="/register"
+                                class="text-light">Sign up</a></button>
+                    </div>
+                    <div class="text-center">
+                        <button class="btn btn-success btn-sm" type="button"><a href="/logout"
+                                class="text-light">Log out</a></button>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="container-fluid" , style="padding: 0px">
+        {%  for ctg, msg in get_flashed_messages(True) %}
+        <div class="{{ ctg }} alert-dan">{{ msg }}</div>
+        {%  endfor %}
+        <h1>Description</h1>
+
+
+
+
+
+
+        <!-- JQuery -->
+        <script type="text/javascript" src="../static/js/jquery-3.4.1.min.js"></script>
+        <!-- Bootstrap tooltips -->
+        <script type="text/javascript" src="../static/js/popper.min.js"></script>
+        <!-- Bootstrap core JavaScript -->
+        <script type="text/javascript" src="../static/js/bootstrap.min.js"></script>
+        <!-- MDB core JavaScript -->
+        <script type="text/javascript" src="../static/js/mdb.min.js"></script>
+</body>
+
+</html>

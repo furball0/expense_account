@@ -1,0 +1,23 @@
+{% include "header.html" %}
+
+{% block body %}
+
+<div class="container">
+    <br>
+    <br>
+    <h1>Results</h1>
+    <hr>
+
+    <h2>Extracted text</h2>
+    <p>{{ text }}</p>
+</div>
+
+<div class="container">
+    <form method="LINK" action="/">
+        <input type="submit" value="To home page">
+    </form>
+
+</div>
+{% endblock body %}
+
+{% include "footer.html" %}
