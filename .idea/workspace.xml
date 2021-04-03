@@ -1,12 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="64831f82-9363-4bda-bac5-82659be3c264" name="Default Changelist" comment="" />
+    <list default="true" id="64831f82-9363-4bda-bac5-82659be3c264" name="Default Changelist" comment="test commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/addons/datatables-select.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/addons/datatables-select.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/addons/datatables.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/addons/datatables.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/addons/directives.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/addons/directives.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/modules/animations-extended.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/modules/animations-extended.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/addons/datatables-select.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/addons/datatables-select.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/addons/datatables.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/addons/datatables.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/addons/imagesloaded.pkgd.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/addons/jquery.zmd.hierarchical-display.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/addons/jquery.zmd.hierarchical-display.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/addons/masonry.pkgd.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/addons/rating.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/modules/bs-custom-file-input.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/modules/chart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/modules/enhanced-modals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/modules/forms-free.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/modules/jquery.easing.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/modules/scrolling-navbar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/modules/treeview.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/modules/velocity.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/modules/velocity.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/modules/waves.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/modules/wow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/addons/_datatables-select.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/addons/_datatables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/addons/_directives.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/addons/_flags.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/addons/_hierarchical-display.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/free/_animations-basic.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/free/_badges.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/free/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/free/_cards.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/free/_carousels.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/free/_depreciated.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/free/_dropdowns.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/free/_footers.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/free/_forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/free/_input-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/free/_list-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/free/_loader.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/free/_modals.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/free/_msc.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/free/_navbars.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/free/_pagination.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/free/_steppers.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/free/_switch.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/free/_tables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/free/_treeview.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/free/modules/animations-extended/_module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/free/modules/animations-extended/animations-extended.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/first.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/first.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/header.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="c37f55da-5d25-4cd5-93f8-4cc779713d99" />
   <component name="ProjectId" id="1lSeGcXRlrSZph6ZXkZBmEF1XtT" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -73,10 +155,44 @@
       <option name="presentableId" value="Default" />
       <updated>1607594824463</updated>
       <workItem from="1607594825725" duration="1966000" />
+      <workItem from="1617444404195" duration="333000" />
     </task>
+    <task id="LOCAL-00001" summary="test commit">
+      <created>1617444425479</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1617444425479</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="test commit" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="261" y="99" key="Vcs.Push.Dialog.v2" timestamp="1617444443429">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="261" y="99" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1617444443429" />
+    <state x="0" y="0" width="718" height="864" key="find.popup" timestamp="1617444639042">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="0" y="0" width="718" height="864" key="find.popup/0.0.1536.864@0.0.1536.864" timestamp="1617444639042" />
   </component>
 </project>
