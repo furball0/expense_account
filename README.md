@@ -13,4 +13,4 @@ The receipt recognition algorithm consists of image preprocessing, text recognit
 
 <hr>
 
-Start -> python3 main.py
+Start -> `python3 main.py`
