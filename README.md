@@ -9,6 +9,9 @@ The main features are receipt scanning, saving information about purchases and d
 The receipt recognition algorithm consists of image preprocessing, text recognition and extraction of the necessary data from the recognized data.
 
 
+* main.py - web-site | PWA
+* text_recognition.py - receipt recognition algorithm 
+
 #### During the development process I worked with Python (+ regular expressions), OpenCV, Tesseract-OCR, Flask, SQLite, html, css
 
 <hr>
